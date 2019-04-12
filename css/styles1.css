@@ -38,8 +38,6 @@ legend {
 
 .svg_icon {
   fill: white;
-  
-  
 }
 
 .svg_icon:hover {
@@ -93,7 +91,7 @@ border-color: #17252a;
  color: lightgray
 }
 .form-control{
-width: 80%;
+width: 70%;
 margin-right:0;
 margin-left: 20px;	
 height: 25px;
@@ -137,24 +135,11 @@ h3 {
   color: white;
   /* width: 80px; */
   /* height: 90px; */
-  /* margin-bottom: 10px; */
   box-sizing: border-box;
   text-align: center;
   /* float:right; */
 
 }
-
-
-@media (min-width:768px){
-#nav-list a {
-  width: 80px;
-  height: 90px;
-  margin-bottom: 7px;	
-	
-}
-}
-
-
 @media (max-width:767px){
 #nav-list a {
 text-align: right;
@@ -187,7 +172,7 @@ padding-top: 0;
 }
 #map {
 background-color: white;
-height: 800px;
+height: 550px;
 
 padding-top: 0;
 	
@@ -211,7 +196,7 @@ padding-top: 0;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #17252a;
+  border: 1px solid #61122f;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -221,12 +206,11 @@ padding-top: 0;
 
 /* FOOTER */
 .panel-footer {
-  margin-top: 10px;
+  margin-top: 30px;
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: black;
   border-top: 0;
-  
 }
 .tooltip.bottom    {
   font-size:12px;
@@ -403,15 +387,11 @@ h3.menu-item-title {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
-    background: url('../images/1m.png') no-repeat;
-    width: 76px;
-    height: 60px;
+    background: url('../images/1.png') no-repeat;
+    width: 100px;
+    height: 100px;
     margin: 5px 5px 5px 0;
   }
-  
-
-  
-  
   /* End Header */
 
   /* Home Page */
@@ -420,35 +400,15 @@ h3.menu-item-title {
     height: 558px;
   }
   /* End Home Page */
-    .navbar-brand h1 { /* Restaurant name */
-    padding-top: 10px;
-    font-size: 40px; /* 1vw = 1% of viewport width */
-	margin-top: -15px;
-  }
 }
-
-
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
   .container .jumbotron {
     background: url('../images/jumbotron_768.jpg') no-repeat;
-  height: 432px;}
-	.navbar-brand h1 { /* Restaurant name */
-    padding-top: 10px;
-    font-size: 40px; /* 1vw = 1% of viewport width */
-	margin-top: -15px;
-  
-	
+    height: 432px;
   }
-  #geog{
-	  width:33.33%
-  }
-  #map{
-	 width:66.67% 
-  }
-  
   /* End Home Page */
 }
 
@@ -458,7 +418,6 @@ h3.menu-item-title {
   .navbar-brand {
     padding-top: 10px;
     height: 80px;
-	font-size: 40px;
   }
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 10px;
@@ -503,7 +462,6 @@ h3.menu-item-title {
   .panel-footer section {
     margin-bottom: 30px;
     text-align: center;
-	
   }
   .panel-footer section:nth-child(3) {
     margin-bottom: 0; /* margin already exists on the whole row */
