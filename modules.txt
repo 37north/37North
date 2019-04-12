@@ -1,0 +1,10 @@
+gunicorn
+flask
+utm
+requests
+psycopg2
+flask_wtf
+wtforms
+autopep8
+httpie
+cython
